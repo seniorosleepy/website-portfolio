@@ -10,7 +10,7 @@ export default function Hero() {
             <img src="info-links\mdi_github.png" className="hero-link-img"/>
           </div>
           <div className="link">
-            <img src="info-links\mdi_github.png" className="hero-link-img"/>
+            <img src="info-links\youtube.png" className="hero-link-img"/>
           </div>
           <div className="link">
             <img src="info-links\ic_baseline-telegram.png" className="hero-link-img"/>
