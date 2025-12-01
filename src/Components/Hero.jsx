@@ -7,18 +7,18 @@ export default function Hero() {
         <p>I build clean, responsive websites with passion and precision</p>
         <div className="links-container">
           <div className="link">
-            <img src="src\pic\info-links\mdi_github.png" className="hero-link-img"/>
+            <img src="info-links\mdi_github.png" className="hero-link-img"/>
           </div>
           <div className="link">
-            <img src="src\pic\info-links\mdi_youtube.png" className="hero-link-img"/>
+            <img src="info-links\mdi_github.png" className="hero-link-img"/>
           </div>
           <div className="link">
-            <img src="src\pic\info-links\ic_baseline-telegram.png" className="hero-link-img"/>
+            <img src="info-links\ic_baseline-telegram.png" className="hero-link-img"/>
           </div>
         </div>
       </div>
 
-      <img src="src\pic\Frame.png" className="main-img" />
+      <img src="Frame.png" className="main-img" />
     </div>
   );
 }
