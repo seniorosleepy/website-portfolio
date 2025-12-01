@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="contact-card">
             <div className="">
               <img
-                src="src\pic\contact-me-icons\mingcute_telegram-fill.png"
+                src="public\contact-me-icons\mingcute_telegram-fill.png"
                 className="contact-logo"
               />
             </div>
@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="contact-card">
             <div>
               <img
-                src="src\pic\contact-me-icons\mdi_github.png"
+                src="public\contact-me-icons\mdi_github.png"
                 className="contact-logo"
               />
             </div>
@@ -31,7 +31,7 @@ export default function Footer() {
           <div className="contact-card">
             <div>
               <img
-                src="src\pic\contact-me-icons\material-symbols_mail.png"
+                src="public\contact-me-icons\material-symbols_mail.png"
                 className="contact-logo"
               />
             </div>
