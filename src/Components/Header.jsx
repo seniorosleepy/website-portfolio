@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header-section">
       <a href="#" className="header-links">About me</a>
       <a href="#" className="header-links">Portfolio</a>
       <a href="#" className="header-links">Skills</a>
