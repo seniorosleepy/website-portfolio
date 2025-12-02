@@ -106,6 +106,10 @@ p{
     align-items: center;
 }
 
+.link:hover{
+    cursor: pointer;
+}
+
 .hero-link-img{
     width: 27px;
 }

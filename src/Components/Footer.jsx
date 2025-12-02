@@ -24,8 +24,8 @@ export default function Footer() {
               />
             </div>
             <div className="user">
-              <h2 className="contact-card-title">Telegram</h2>
-              <p className="username">@rizza228</p>
+              <h2 className="contact-card-title">GitHub</h2>
+              <p className="username">@seniosleepy</p>
             </div>
           </div>
           <div className="contact-card">
@@ -36,8 +36,8 @@ export default function Footer() {
               />
             </div>
             <div className="user">
-              <h2 className="contact-card-title">Telegram</h2>
-              <p className="username">@rizza228</p>
+              <h2 className="contact-card-title">Email</h2>
+              <p className="username">isleepy72@gmail.com</p>
             </div>
           </div>
         </div>

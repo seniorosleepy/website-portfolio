@@ -8,7 +8,10 @@ export default function Hero() {
         </h1>
         <p>I build clean, responsive websites with passion and precision</p>
         <div className="links-container">
-          <div className="link">
+          <div
+            className="link"
+            onClick={() => window.open("https://github.com/seniorosleepy")}
+          >
             <img src="info-links\mdi_github.png" className="hero-link-img" />
           </div>
           <div className="link">
