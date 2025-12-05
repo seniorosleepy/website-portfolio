@@ -12,14 +12,14 @@ export default function Hero() {
             className="link"
             onClick={() => window.open("https://github.com/seniorosleepy")}
           >
-            <img src="info-links\mdi_github.png" className="hero-link-img" />
+            <img src="public\img\hero-imgs\github.png" className="hero-link-img" />
           </div>
           <div className="link">
-            <img src="info-links\mdi_youtube.png" className="hero-link-img" />
+            <img src="public\img\hero-imgs\youtube.png" className="hero-link-img" />
           </div>
           <div className="link">
             <img
-              src="info-links\ic_baseline-telegram.png"
+              src="public\img\hero-imgs\telegram.png"
               className="hero-link-img"
             />
           </div>
