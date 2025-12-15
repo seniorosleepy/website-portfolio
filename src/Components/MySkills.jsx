@@ -1,29 +1,25 @@
-export default function MySkills() {
+export default function MySkills({ lang }) {
+  const skills = [
+    { name: "CSS", img: "/img/skills-imgs/css.png" },
+    { name: "HTML", img: "/img/skills-imgs/html.png" },
+    { name: "JavaScript", img: "/img/skills-imgs/js.png" },
+    { name: "React", img: "/img/skills-imgs/react.png" },
+    { name: "TailwindCSS", img: "/img/skills-imgs/tailwind.png" },
+  ];
+
   return (
     <div className="skills-section">
       <div className="skills-container">
-        <h1 className="skills-title">My skills</h1>
+        <h1 className="skills-title">
+          {lang === "en" ? "My skills" : "Мои навыки"}
+        </h1>
         <div className="skills">
-          <div className="main-skills-container">
-            <img src="public\img\skills-imgs\css.png" />
-            <h4>CSS</h4>
-          </div>
-          <div className="main-skills-container">
-            <img src="public\img\skills-imgs\html.png" />
-            <h4>HTML</h4>
-          </div>
-          <div className="main-skills-container">
-            <img src="public\img\skills-imgs\js.png" />
-            <h4>JavaScript</h4>
-          </div>
-          <div className="main-skills-container">
-            <img src="public\img\skills-imgs\react.png" />
-            <h4>React</h4>
-          </div>
-          <div className="main-skills-container">
-            <img src="public\img\skills-imgs\tailwind.png" />
-            <h4>TailwindCSS</h4>
-          </div>
+          {skills.map((skill) => (
+            <div className="main-skills-container" key={skill.name}>
+              <img src={skill.img} alt={skill.name} />
+              <h4>{skill.name}</h4>
+            </div>
+          ))}
         </div>
       </div>
     </div>

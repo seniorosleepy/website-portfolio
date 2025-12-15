@@ -1,13 +1,4 @@
-import { useState } from "react";
-
-export default function Header() {
-  const [lang, setLang] = useState("en");
-
-function changeLanguage() {
-  setLang(prev => (prev === "en" ? "ru" : "en"));
-}
-
-
+export default function Header({ lang, changeLanguage }) {
   return (
     <div className="header-section">
       <button className="lang-button" onClick={changeLanguage}>
@@ -21,10 +12,10 @@ function changeLanguage() {
           {lang === "en" ? "Portfolio" : "Портфолио"}
         </a>
         <a href="#" className="header-link">
-          Skills
+          {lang === "en" ? "Skills" : "Мои навыки"}
         </a>
         <a href="#" className="header-link">
-          Contact
+          {lang === "en" ? "Contact" : "Контакты"}
         </a>
       </div>
     </div>

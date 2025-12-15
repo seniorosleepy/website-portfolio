@@ -1,8 +1,8 @@
-export default function Footer() {
+export default function Footer( {lang} ) {
   return (
     <>
       <div className="contact-section">
-        <h1 className="contact-title">Contact Me</h1>
+        <h1 className="contact-title">{lang === "en" ? "Contact me" : "Мои контакты"}</h1>
         <div className="contact-card-container">
           <div className="contact-card">
             <div className="">
